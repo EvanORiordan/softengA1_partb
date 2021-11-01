@@ -1,5 +1,5 @@
 plugins {
-    id 'java'
+    id 'war'
 }
 
 
@@ -12,10 +12,10 @@ repositories {
 }
 
 dependencies {
-    implementation 'joda-time:joda-time:2.10.12'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
     implementation 'com.github.EvanORiordan:softeng_A1_part_a:v1.1'
+    implementation 'joda-time:joda-time:2.10.12'
 }
 
 test {
